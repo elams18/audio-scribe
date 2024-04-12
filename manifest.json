@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Mic Capture Extension",
+  "version": "1.0",
+  "description": "Capture user microphone input.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.svg"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg"
+  }
+}
